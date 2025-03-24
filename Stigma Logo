@@ -1,0 +1,29 @@
+coroutine.wrap(NSHDR_fake_script)()
+local function UDIRPT_fake_script() -- Green.Info 
+	local script = Instance.new('LocalScript', Green)
+
+	local img = script.Parent
+	local GetName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId)
+	
+	img:TweenPosition(UDim2.new(0.451, 0,0.395, 0), "Out", "Linear", 0.4, false)
+	wait(3)
+	img:TweenPosition(UDim2.new(0.005, 0,0.619, 0), "Out", "Sine", 0.7, false)
+	
+	
+	
+	
+end
+coroutine.wrap(UDIRPT_fake_script)()
+local function WGFAMY_fake_script() -- StigmanFroud.LocalScript 
+	local script = Instance.new('LocalScript', StigmanFroud)
+
+	local GetName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId)
+	
+	print("Loaded At",GetName.Name)
+	wait(0.1)
+	print("Welcome,",game.Players.LocalPlayer.Name)
+	
+end
+coroutine.wrap(WGFAMY_fake_script)()
+  	end    
+})
