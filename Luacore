@@ -637,3 +637,5 @@ image.BackgroundTransparency = 1
 
 local TextBox = Instance.new("TextBox")
 TextBox.Size = UDi
+
+OrionLib:Init()
